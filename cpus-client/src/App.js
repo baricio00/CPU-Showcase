@@ -66,7 +66,7 @@ function App() {
   const handleCloseDetails = () => {
     setSelectedCpu(null);
     if (isMobileView) {
-      setViewMode('list'); // Switch to list view in mobile mode
+      setViewMode('list');
     }
   };
 
@@ -113,7 +113,7 @@ function App() {
               onClose={handleCloseDetails} 
               onUpdate={handleUpdateCPU} 
               sockets={sockets} 
-              isMobileView={isMobileView} // Pass the mobile view state to the detail component
+              isMobileView={isMobileView} 
             />
           </div>
         )}
