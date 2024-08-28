@@ -1,0 +1,29 @@
+.single-cpu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .cpu-name{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cpu-brand{
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .cpu-socket{
+    font-style: italic;
+    margin-left: 20px;
+  }
+
+  .single-cpu.selected {
+    background-color: #8a76df;
+  }
+  
+  .single-cpu:hover {
+    background-color: #9f8cf1;
+  }

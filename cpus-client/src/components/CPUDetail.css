@@ -1,0 +1,206 @@
+.details-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button{
+    display: flex;
+    flex-direction: row;
+    background: none;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.back-text{
+    margin-left: 4px;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.edit-button{
+    background: none;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-weight: 500;
+  }
+
+  .details-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .detail-name{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detail-brand-name{
+    font-weight: bold;
+    font-size: 24px;
+    max-width: 215px;
+  }
+  
+  .detail-socket{
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .logo{
+    margin-left: 10px;
+  }
+
+  .details-2{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  .detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  
+  .detail-type{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .detail-value{
+    margin-left: 15px;
+    margin-top: 1px;
+  }
+  
+  
+  .details-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .details-3 button{
+    background: #a896f4;
+    color: #FFF;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .edit-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  
+  .form-group label {
+    width: 40%;
+  }
+  
+  .form-group input {
+    flex: 1;
+    width: 100%;
+  }
+  
+  .form-group select {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+.edit-form button{
+    background: #a896f4;
+    color: #FFF;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.buttons-edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.form-group input, .form-group select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid #cec5f7;
+    background-color: #ffffff00;
+    color: #FFF;
+}
+
+.form-group option{
+    background-color: #947DF6;
+    color: #FFF;
+    margin-top: 3px;
+}
+
+.form-group input:focus, .form-group select:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.buttons-edit-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.buttons-edit-mobile div{
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
