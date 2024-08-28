@@ -17,13 +17,11 @@ Initialization
 
 cpu-showcase.sql contains a backup of the database that can be dumped on PostgreSQL following these steps:
 - Open Terminal or Command Prompt
-- Connect to PostgreSQL Server by executing this command
-    psql -U postgres
+- Connect to PostgreSQL Server by executing: psql -U postgres
   Enter the password for the Postgres user if prompted
-- create a new database
+- create a new database by running: createdb your_database
 - run '\q' to exit the psql environment
-- restore backup using this command to recover the backup file to the database that you created (as "your_database")
-    psql -U postgres -d your_database -f "C:\Users\path\of\the\database\backup.sql"
+- restore backup using this command to recover the backup file to the database that you created: psql -U postgres -d your_database -f "C:\Users\path\of\the\database\backup.sql"
 - enter the password and the database will be recovered from dump file
 
 Start the backend:
